@@ -64,7 +64,7 @@ int main(void) {
         printf("\n");
     }
 
-    // Belleği serbest bırak
+
     for (int i = 0; i < matris1BuyukluguSatir; i++) {
         free(matris1[i]);
     }
